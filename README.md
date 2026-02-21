@@ -1,8 +1,8 @@
 # durable-graphql
 
-Auto-generated GraphQL API from Drizzle schema, running on Cloudflare Durable Objects with per-instance SQLite storage.
+Auto-generated GraphQL API from Drizzle schema, running on Cloudflare Durable Objects with per-instance SQLite storage. Modelled closely after [Hasura](https://hasura.io/)'s GraphQL API and permission system — same query/mutation patterns, row-level/column-level rules, session variable resolution, and role-based access control.
 
-This project currently runs in **single-tenant mode** (one Durable Object instance), with JWT/auth handled in the Worker before requests reach the GraphQL runtime.
+> **Warning:** This is an experimental project and should not be used in production. It's a learning exercise and proof of concept, not a battle-tested framework.
 
 ## Features
 
